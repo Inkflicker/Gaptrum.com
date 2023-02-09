@@ -1,0 +1,83 @@
+
+
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: aquamarine;
+    display: flex;
+    
+    align-items: center;
+}
+
+.header,
+.row2,
+.row3,
+.row4,
+.row5,
+.footer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.links {
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.gaptrumlogo {
+    width: 80px;
+    height: auto;
+}
+
+.row2 {
+    background-color: blueviolet;
+    
+}
+
+.row3 {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image7 {
+    background-color: red;
+}
+
+.row4 {
+    background-color: rgb(207, 125, 125);
+}
+
+.row5 {
+    background-color: rgba(13, 190, 131, 0.766);
+}
+
+.footer {
+    background-color: antiquewhite;
+    text-align: center;
+}
